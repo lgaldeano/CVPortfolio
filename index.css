@@ -1,0 +1,66 @@
+.page1 {
+  display: flex;
+  align-items: center;
+  height: 800px;
+}
+img {
+  border-radius: 4px;
+  box-shadow: 10px 10px;
+}
+.transi1 {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+  border-radius: 4px;
+  box-shadow: 10px 10px;
+}
+
+.expertise {
+  padding-top: 45px;
+}
+
+.page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
+  height: 950px;
+}
+
+.titre1 {
+  padding-bottom: 50px;
+  text-decoration: underline;
+}
+
+@keyframes myAnim {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .titre1 {
+    padding-top: 20rem !important;
+  }
+  .titre2 {
+    padding-top: 20rem !important;
+  }
+  .page2 {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+  }
+}
+
+@media (min-width: 800px) {
+  .titre1 {
+    padding-top: 2rem !important;
+  }
+  .titre2 {
+    padding-top: 2rem !important;
+  }
+}
