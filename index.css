@@ -44,10 +44,10 @@ img {
 
 @media screen and (min-width: 320px) {
   .titre1 {
-    padding-top: 40rem !important;
+    padding-top: 50rem !important;
   }
   .titre2 {
-    padding-top: 40rem !important;
+    padding-top: 50rem !important;
   }
   .page2 {
     display: flex;
