@@ -42,6 +42,12 @@ img {
   }
 }
 
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
 @media screen and (min-width: 320px) {
   .titre1 {
     padding-top: 50rem !important;
@@ -53,14 +59,21 @@ img {
     display: flex;
     justify-content: center;
     padding: 120px;
+    width: auto;
   }
 }
 
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 820px) {
   .titre1 {
     padding-top: 2rem !important;
   }
   .titre2 {
     padding-top: 2rem !important;
   }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
+
