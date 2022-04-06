@@ -42,12 +42,12 @@ img {
   }
 }
 
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) {
   .titre1 {
-    padding-top: 20rem !important;
+    padding-top: 40rem !important;
   }
   .titre2 {
-    padding-top: 20rem !important;
+    padding-top: 40rem !important;
   }
   .page2 {
     display: flex;
@@ -56,7 +56,7 @@ img {
   }
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .titre1 {
     padding-top: 2rem !important;
   }
