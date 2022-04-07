@@ -5,12 +5,12 @@
 }
 img {
   border-radius: 4px;
-  box-shadow: 10px 10px;
+  box-shadow: 3px 3px 3px;
 }
 .transi1 {
   animation: myAnim 2s ease 0s 1 normal forwards;
   border-radius: 4px;
-  box-shadow: 10px 10px;
+  box-shadow: 3px 3px 3px;
 }
 
 
