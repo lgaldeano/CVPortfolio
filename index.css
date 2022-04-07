@@ -13,22 +13,7 @@ img {
   box-shadow: 10px 10px;
 }
 
-.expertise {
-  padding-top: 45px;
-}
 
-.page2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 400px;
-  height: 950px;
-}
-
-.titre1 {
-  padding-bottom: 50px;
-  text-decoration: underline;
-}
 
 @keyframes myAnim {
   from {
@@ -39,41 +24,6 @@ img {
   to {
     margin-left: 0%;
     width: 100%;
-  }
-}
-
-.card {
-  display: flex;
-  justify-content: space-between;
-  width: 350px;
-}
-
-@media screen and (min-width: 320px) {
-  .titre1 {
-    padding-top: 50rem !important;
-  }
-  .titre2 {
-    padding-top: 50rem !important;
-  }
-  .page2 {
-    display: flex;
-    justify-content: center;
-    padding: 120px;
-    width: auto;
-  }
-}
-
-
-@media screen and (min-width: 820px) {
-  .titre1 {
-    padding-top: 2rem !important;
-  }
-  .titre2 {
-    padding-top: 2rem !important;
-  }
-  .card {
-    display: flex;
-    flex-wrap: wrap;
   }
 }
 
